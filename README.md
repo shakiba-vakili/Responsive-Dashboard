@@ -1,4 +1,4 @@
-# Responsive-Dashboard
+# Responsive Dashboard
 Responsive Dashboard with dark mode.
 
 See [demo](https://shakiba-vakili.github.io/Responsive-Dashboard/)

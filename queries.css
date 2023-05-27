@@ -1,0 +1,72 @@
+/* Small devices (portrait tablets and large phones, 481px  and up) */
+/* ipad */
+@media only screen and (max-width: 36.9em) {
+  /* html {
+    font-size: 60%;
+  } */
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2rem 0;
+  }
+  aside {
+    display: none;
+  }
+  .right .top {
+    justify-content: space-between;
+  }
+
+  main .insights {
+    grid-template-columns: 1fr;
+  }
+}
+/* Medium devices (600px and up) */
+@media only screen and (min-width: 37em) {
+  /* html {
+    font-size: 62.5%;
+  } */
+  .container {
+    grid-template-columns: 0.2rem auto 1fr 0.2rem;
+  }
+  aside .logo,
+  aside .sidebar {
+    display: none;
+  }
+
+  main .insights {
+    grid-template-columns: 1fr;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 60em) {
+  html {
+    font-size: 65%;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  .container {
+    grid-template-columns: 14rem auto 23rem 2rem;
+  }
+  aside .logo {
+    display: flex;
+  }
+  aside .sidebar {
+    display: inline-block;
+  }
+  main .insights {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 74em) {
+  html {
+    font-size: 70%;
+  }
+} */
+/* Extra extra large	 */
+/* @media screen and (min-width: 87.5em) {
+  html {
+    font-size: 80%;
+  }
+} */
